@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+            <nav>
+        <ul>
+            <li>
+                <a class="navbuttons" href="form2.html">Form2</a>
+            </li>
+        </ul>
+    </nav>
+    </div>
+
+    <div class="main1div">
+        <img src="IMG_20230322_232439_670.jpg" alt="">
+    </div>
+
+    <div class="mai2div">
+        <h1>MUHAMMAD HAMZA RAFI</h1>
+        <p>I am second semester graduate at Foundation University Rawalpindi Campus.Here I am learning html, css and javascript. My goal is to make websites. </p>
+    </div>
+    <div class="main3div" >
+        <div class="main8div">
+            <h1>Registration Form</h1>
+        </div>
+            <form class="main3div" style= "width: 10cm; height: 18cm; border: solid black;">
+            <label for="fname">First Name:</label>
+            <input type="text" name="" id="fname" placeholder="Enter your First Name"><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="" id="lname" placeholder="Enter your Last Name"><br>
+            <label for="age">Age:</label>
+            <input type="text" name="" id="age" placeholder="How old are you?"><br>
+            <label for="pw">Password</label>
+            <input type="password" name="" id="pw" placeholder="Password should be strong"><br>
+        </div>
+            <div class="main4div">
+            <label for="gender">Gender</label><br>
+            <label>Male</label>
+            <input type="radio" name="xxx" id=""><br>
+            <label>Female</label>
+            <input type="radio" name="xxx" id=""><br>
+            <label>Other</label>         
+            <input type="radio" name="xxx" id=""><br>   
+            <input type="submit" name="submit" id="btn">
+            </div>
+        </form>
+    
+    
+<script>
+btn = document.getElementById("btn")
+btn.addEventListener("click", function fun(){
+    let FirstName = document.getElementById("FirstName").value;
+    let LastName = document.getElementById("LastName").value;
+    let Password = document.getElementById("Password"),value;
+
+    console.log(FirstName)
+    console.log(LastName)
+})
+</script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+.main3div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 3cm;
+    left: 15cm;
+    flex-direction: column;
+}
+
+.main4div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 18cm;
+    right: 15cm;
+}
+
+.main7div{
+    height: px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 5cm;
+    right: 20cm;
+    font-size: 1cm;
+
+}
+
+.main8div{
+    position: absolute;
+    top: 4cm;
+    left: 17cm;
+    font-size: 0.7cm;
+}
